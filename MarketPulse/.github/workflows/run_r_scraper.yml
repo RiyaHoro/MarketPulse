@@ -1,0 +1,25 @@
+name: Run R Scraper
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # runs every 6 hours
+  workflow_dispatch:       # allows manual run
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages(c("rvest","tidyverse","syuzhet","DBI","RMariaDB"))'
+
+      - name: Run pipeline
+        run: |
+          Rscript run_pipeline.R
