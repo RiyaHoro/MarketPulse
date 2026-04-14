@@ -1,9 +1,10 @@
-source("packages.R")
-source("config.R")
+library(rvest)
+library(dplyr)
+library(stringr)
 
-scrape_products <- function() {
+scrape_products <- function(url) {
 
-  page <- read_html(TARGET_URL)
+  page <- read_html(url)
 
   product_name <- page %>%
     html_nodes(".title") %>%

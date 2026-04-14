@@ -1,5 +1,4 @@
-source("packages.R")
-
+library(syuzhet)
 analyze_sentiment <- function(data) {
 
   data$sentiment_score <- get_sentiment(data$review_text)

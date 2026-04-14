@@ -1,4 +1,4 @@
-TARGET_URL <- "https://webscraper.io/test-sites/e-commerce/static/computers/laptops"
+TARGET_URL <- "https://webscraper.io/test-sites/e-commerce/static/computers/tablets"
 
 DB_HOST <- Sys.getenv("MYSQL_HOST")
 DB_USER <- Sys.getenv("MYSQL_USER")

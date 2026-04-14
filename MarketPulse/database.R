@@ -1,5 +1,4 @@
-source("packages.R")
-source("config.R")
+
 
 connect_db <- function() {
 
