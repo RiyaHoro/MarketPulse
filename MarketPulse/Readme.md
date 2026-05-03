@@ -146,9 +146,9 @@ The Shiny dashboard includes:
 * Price trend analysis
 * Current BUY / AVOID recommendation
 
-![alt text](image.png)
+![alt text](image-2.png)
 
-![alt text](image-1.png)
+![alt text](image-3.png)
 
 ---
 
@@ -189,7 +189,9 @@ This project demonstrates practical experience with:
 ## Author
 
 Riya Horo SBU220702
+
 Sonam Kumari SBU220714
+
 Manisha Kumari SBU220634
 
 B.Tech Computer Science Engineering
