@@ -1,4 +1,13 @@
 # Real-Time Web Scraping & Market Sentiment Engine
+## Author
+
+Riya Horo SBU220702
+
+Sonam Kumari SBU220714
+
+Manisha Kumari SBU220634
+
+B.Tech Computer Science Engineering
 
 ## Overview
 
@@ -186,14 +195,6 @@ This project demonstrates practical experience with:
 
 ---
 
-## Author
 
-Riya Horo SBU220702
-
-Sonam Kumari SBU220714
-
-Manisha Kumari SBU220634
-
-B.Tech Computer Science Engineering
 
 ---
