@@ -146,6 +146,10 @@ The Shiny dashboard includes:
 * Price trend analysis
 * Current BUY / AVOID recommendation
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 ---
 
 ## Example Workflow
@@ -184,7 +188,9 @@ This project demonstrates practical experience with:
 
 ## Author
 
-Riya Horo
+Riya Horo SBU220702
+Sonam Kumari SBU220714
+Manisha Kumari SBU220634
 
 B.Tech Computer Science Engineering
 

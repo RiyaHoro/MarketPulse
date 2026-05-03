@@ -1,0 +1,10 @@
+name: dashboard
+title:
+username: riyahoro
+account: riyahoro
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17133933
+bundleId: 11851013
+url: https://riyahoro.shinyapps.io/dashboard/
+version: 1

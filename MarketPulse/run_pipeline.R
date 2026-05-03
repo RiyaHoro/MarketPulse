@@ -4,8 +4,11 @@ source("database.R")
 
 cat("Starting pipeline...\n")
 
+# Provide URL here
+url <- "https://webscraper.io/test-sites/e-commerce/static/product/518"
+
 # Scrape data
-products <- scrape_products()
+products <- scrape_products(url)
 
 cat("Scraping complete\n")
 
@@ -23,7 +26,7 @@ store_results(con, products)
 cat("Data stored in MySQL\n")
 
 # Close connection
-dbDisconnect(con)
+DBI::dbDisconnect(con)
 
 cat("Rows inserted:", nrow(products), "\n")
 

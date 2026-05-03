@@ -2,17 +2,15 @@
 
 connect_db <- function() {
 
-  con <- dbConnect(
+  con <- DBI::dbConnect(
     RMariaDB::MariaDB(),
-    dbname = DB_NAME,
-    host = DB_HOST,
-    user = DB_USER,
-    password = DB_PASSWORD,
-    port = DB_PORT
+    host = "localhost",
+    user = "root",
+    password = "root",
+    dbname = "market_engine"
   )
 
   return(con)
-
 }
 
 store_results <- function(con, data) {
