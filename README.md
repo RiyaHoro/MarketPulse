@@ -145,7 +145,7 @@ The Shiny dashboard includes:
 * Sentiment trend over time
 * Price trend analysis
 * Current BUY / AVOID recommendation
-
+* 
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
